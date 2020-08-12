@@ -1,0 +1,18 @@
+Welcome to MSX IRC client
+
+Use navigations buttons [UP] [DOWN] for scroll help screen
+Combinations [SHIFT]+[UP], [SHIFT+DOWN] for page scroll 
+[ESC] - call root menu screen
+[F1]  - call help screen
+[CTRL] + [Q] - close help screen
+
+In root menu [S] - Server console screen
+
+In Server console screen
+[F1] - help
+[F2] - connect to server
+[F3] - disconect
+For join to IRC channels enter: /JOIN #channel
+
+For swith beetven screens use [CTRL]+[LEFT], [CTRL]+[RIGHT] buttons, or [ESC]
+to call root menu and select need screen in list screen. 
