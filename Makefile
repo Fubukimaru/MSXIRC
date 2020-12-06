@@ -1,4 +1,4 @@
-bin/msxirc_p.com:
-	pasmo msxirc.asm bin/msxirc_p.com
+bin/msxirc.com:
+	pasmo msxirc.asm bin/msxirc.com
 clean:
 	rm bin/msxirc_p.com
