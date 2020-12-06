@@ -17,43 +17,43 @@ Use navigations buttons [UP] [DOWN] to scroll this help screen
 
 ## Work anywhere:
 
-[ESC] - Invoke Main Menu / Last Window Opened
-[F1]  - Show this help screen
+- [ESC] - Invoke Main Menu / Last Window Opened
+- [F1]  - Show this help screen
 
 ## In Main Menu:
 
-[S] - Invoke Server Console Window
-[Q] - Return to MSX-DOS
-[UP][DOWN] - Navigate the Window list (if any)
-[ENTER] - Enter the Window selected
+- [S] - Invoke Server Console Window
+- [Q] - Return to MSX-DOS
+- [UP][DOWN] - Navigate the Window list (if any)
+- [ENTER] - Enter the Window selected
 
 ## In Server Console Window:
 
-[F2] - Connect to server
-[F3] - Disconect
-[&] - Send again NICK , PASS and USER messages and SERVERPASS if configured
-Join IRC channel: /JOIN #channel
-Private MSG: /QUERY username
+- [F2] - Connect to server
+- [F3] - Disconect
+- [&] - Send again NICK , PASS and USER messages and SERVERPASS if configured
+- Join IRC channel: /JOIN #channel
+- Private MSG: /QUERY username
 
-## Work on any Window you input text (Channel, Query, Server):
+## Work on any Window you input text (Channel, Query, Server)
 
-[SHIFT]+[UP], [SHIFT+DOWN] to scroll pages
-[CTRL]+[UP], [CTRL+DOWN] to go up/down a single line (in this case line is not
-related to a screen line, but a line of text from server or keyboard input)
-[CLS] - Go to the last line of text in the screen
-[INS] - Alternate insertion mode
-[CTRL]+[LEFT], [CTRL]+[RIGHT] - Switch Windows
-[LEFT][RIGHT] - Navigate the text type highlighting the selected character
-[DEL] - Delete character selected
-[BS] - Delete character to the left of selected char
-[CTRL] + [Q] - Close the current Window (except Server Console Window)
+- [SHIFT]+[UP], [SHIFT+DOWN] to scroll pages
+- [CTRL]+[UP], [CTRL+DOWN] to go up/down a single line (in this case line is not
+    related to a screen line, but a line of text from server or keyboard input)
+- [CLS] - Go to the last line of text in the screen
+- [INS] - Alternate insertion mode
+- [CTRL]+[LEFT], [CTRL]+[RIGHT] - Switch Windows
+- [LEFT][RIGHT] - Navigate the text type highlighting the selected character
+- [DEL] - Delete character selected
+- [BS] - Delete character to the left of selected char
+- [CTRL] + [Q] - Close the current Window (except Server Console Window)
 
-## In Channel Window:
+## In Channel Window
 
-[F2] - Allow you to navigate the nick list, enter will copy the name in the
+- [F2] - Allow you to navigate the nick list, enter will copy the name in the
        text input line
-[SELECT] - Same as F2
-Private Message - /QUERY username OR, type /QUERY and space, then hit F2 or
+- [SELECT] - Same as F2
+- Private Message - /QUERY username OR, type /QUERY and space, then hit F2 or
 SELECT, choose the nick and hit enter (once to copy the nick and twice to open
 the query/private message window)
 
@@ -76,26 +76,25 @@ FREENODE, so you execute MSXIRC as follow: MSXIRC FREENODE.INI
 
 The following items are read from the .INI file:
 
-server - the server name / address to connect to
-port - the port for the server connection
-srvpass - password for the server
-nick - your desired nickname
-altnick - alternative nickname
-user - the user information reported to the server
-font - which alternative font file to use
-ink_c - color for regular text (0-15)
-paper_c - color for regular background (0-15)
-aink_c - color for text selected / on cursor(0-15)
-apaper_c - color for cursor or lower bar highlight (0-15)
-timestamp - Enable time-stamp on text windows as follow:
-	0 - Disabled
-	1 - HH:MM
-	2 - HH:MM:SS
-	3 - MM.YY HH:MM
-	4 - MM.YY HH:MM:SS
-	5 - DD.MM.YY HH:MM
-	6 - DD.MM.YY HH:MM:SS
-
+- server - the server name / address to connect to
+- port - the port for the server connection
+- srvpass - password for the server
+- nick - your desired nickname
+- altnick - alternative nickname
+- user - the user information reported to the server
+- font - which alternative font file to use
+- ink_c - color for regular text (0-15)
+- paper_c - color for regular background (0-15)
+- aink_c - color for text selected / on cursor(0-15)
+- apaper_c - color for cursor or lower bar highlight (0-15)
+- timestamp - Enable time-stamp on text windows as follow:
+    + 0 - Disabled
+    + 1 - HH:MM
+    + 2 - HH:MM:SS
+    + 3 - MM.YY HH:MM
+    + 4 - MM.YY HH:MM:SS
+    + 5 - DD.MM.YY HH:MM
+    + 6 - DD.MM.YY HH:MM:SS
 
 # Changelog
 
